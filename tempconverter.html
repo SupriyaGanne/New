@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <style>
+    h2{
+      font-size: 40px;
+      text-align: center;
+      background-color: #C4DFDF;
+      color: brown;
+    }
+    
+    input[type="text"] {
+      padding: 5px;
+      width: 150px;
+    }
+    select {
+      padding: 5px;
+    }
+    button {
+      padding: 8px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #result {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <section class="start">
+    <div>
+      <h2>Temperature Converter</h2>
+
+      <label for="temp">Degree:</label>
+      <input type="text" id="temp" placeholder="Degree" required>
+      <br>
+
+      <label for="u">Unit:</label>
+      <select id="u">
+        <option value="cel">Celsius</option>
+        <option value="fah">Fahrenheit</option>
+        <option value="kel">Kelvin</option>
+      </select>
+      <br>
+
+      <button onclick="convertDegree()">Convert</button>
+    </div>
+
+    <div id="resultcontainer"></div>
+
+    <script src="script.js"></script>
+  </section>
+</body>
+</html>

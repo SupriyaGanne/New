@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    border: 10px;
+}
+select {
+    padding: 5px;
+    margin: 10px;
+  }
+
+section label select{
+    background-color: #F8E8EE; 
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    justify-content: space-between;
+  
+}
