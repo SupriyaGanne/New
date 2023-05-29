@@ -12,7 +12,14 @@ select {
     padding: 5px;
     margin: 10px;
   }
-
+input[type="text"] {
+    padding: 15px;
+    width: 150px;
+  }
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
 section label select{
     background-color: #F8E8EE; 
     margin: 0;
@@ -20,4 +27,17 @@ section label select{
     text-align: center;
     justify-content: space-between;
   
+}
+.start{
+    background-color: #D2E9E9;
+    text-align: center;
+}
+.end{
+    background-color: #E3F4F4;
+    color: chocolate;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
